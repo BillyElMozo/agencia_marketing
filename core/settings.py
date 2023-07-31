@@ -1,6 +1,6 @@
 from pathlib import Path
 
-import os 
+import os
 import environ
 
 env = environ.Env()
@@ -41,7 +41,7 @@ THIRD_PARTY_APPS = [
     'corsheaders',
     'rest_framework',
     'ckeditor',
-    'ckedit_uploader',
+    'ckeditor_uploader',
 ]
 
 INSTALLED_APPS = DJANGO_APPS + PROJECT_APPS + THIRD_PARTY_APPS
